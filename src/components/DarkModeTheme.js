@@ -4,7 +4,7 @@ export default function DarkModeTheme() {
     const[myStyle,setmyStyle]=useState({
         color:'white',
         backgroundColor:'black'
-    })
+    });
     
     const[btnText,setBtnText]=useState("Enable light mode")
     const ChangeColor=()=>{
